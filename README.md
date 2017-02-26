@@ -15,6 +15,7 @@ The following packages are installed:
 - Git
 - Helm
 - Kubectl
+- Zsh and ZPlug (see also http://daanhorn.nl/post/zplug)
 
 Optional, in the Vagrantfile the following packages can be enabled by removing the hash:
 - Libsodium
@@ -25,11 +26,12 @@ Username is **vagrant** and password is also **vagrant**
 The following mounts are created:
 - /vagrant which is mounted to the folder where the Vagrantfile is in. 
 - /certificates is mounted to C:\certificates and should contain all certificates like for SSH, Kubectl and AWS. 
+
 Check out the Vagrantfile and add more shares if you want to.
 
 ## How to start and stop the machine
 
-Open a DOS-box and execute
+Open a DOS-box and execute (after you installed Vagrant and VirtualBox)
 ```console
 C:\[Folder]> start-machine.cmd
 ```

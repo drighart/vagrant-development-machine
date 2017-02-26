@@ -6,7 +6,7 @@ Go to https://www.vagrantup.com/downloads.html and download and use the installe
 
 Go to https://www.virtualbox.org/wiki/Downloads and download and use the installer to install VirtualBox.
 
-The following packages are installed:
+The following packages are installed on top of Ubuntu Desktop Xenial v16.04 LTS:
 - Java JDK 8
 - Gradle
 - Maven

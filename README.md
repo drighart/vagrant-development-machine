@@ -18,9 +18,9 @@ Optional, in the Vagrantfile the following packages can be enabled by removing t
 - Libsodium
 - Wildfly
 
-Username is *vagrant* and password is also *vagrant*
+Username is **vagrant** and password is also **vagrant**
 
 The following mounts are created:
 - /vagrant which is mounted to the folder where the Vagrantfile is in. 
 - /certificates is mounted to C:\certificates and should contain all certificates like for SSH, Kubectl and AWS. 
-Check out the Vagrantfile and add more share if you want to.
+Check out the Vagrantfile and add more shares if you want to.

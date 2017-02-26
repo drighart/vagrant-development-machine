@@ -50,8 +50,8 @@ Vagrant.configure("2") do |config|
      config.vm.provision :shell, path: "bootstrap.sh"
      config.vm.provision :shell, path: "install-intellij.sh"
 
-     config.vm.provision :shell, path: "install-libsodium.sh"
-     config.vm.provision :shell, path: "install-wildfly.sh"
+#     config.vm.provision :shell, path: "install-libsodium.sh"
+#     config.vm.provision :shell, path: "install-wildfly.sh"
 
   end
   

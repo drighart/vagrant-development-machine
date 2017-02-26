@@ -2,7 +2,7 @@
 
 With Vagrant a new virtual machine can be started as specified in the Vagrantfile. In this example a lot of development tooling is installed. Of course, it is also possible to install a more data-science virtual machine with RStudio, Python3, Anaconda etc...
 
-Go to https://www.vagrantup.com/downloads.html and download and use the installer to install Vagrant (for instance in the folder C:\vagrant-config). Set the environment variable VAGRANT_HOME to another folder (NOT the installation folder because this is readonly). This folder is used to put in the virtual boxes and other stuff.
+Go to https://www.vagrantup.com/downloads.html and download and use the installer to install Vagrant (for instance in the folder C:\vagrant). Set the environment variable **VAGRANT_HOME** to another folder (NOT the installation folder because this is readonly, and for instance C:\vagrant-config). This folder is used to store the virtual boxes and other stuff.
 
 Go to https://www.virtualbox.org/wiki/Downloads and download and use the installer to install VirtualBox.
 
